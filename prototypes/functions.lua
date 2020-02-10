@@ -107,9 +107,6 @@ function beltReskin.patchSplitter(entityName)
 		scale = 0.5
 		}
 	}
-
-	-- Handle new East/West structure_patch that Bob hasn't implemented as yet
-	table.insert(entity,structure_patch)
 	entity.structure_patch = 
 	{
 		north = util.empty_sprite(),
