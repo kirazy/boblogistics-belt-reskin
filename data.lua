@@ -1,3 +1,8 @@
+-- Copyright (c) 2020 Kirazy
+-- Part of Bob's Logistics Belt Reskin
+--     
+-- See LICENSE.md in the project directory for license information.
+
 require("prototypes.functions")
 require("prototypes.entity.belt-particles")
 require("prototypes.entity.belt-explosions")
