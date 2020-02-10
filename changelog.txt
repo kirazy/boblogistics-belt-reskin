@@ -1,0 +1,7 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.18.1
+Date: 2.2.2020
+  Features:
+    - Initial Release
+    - Reskins the logistics belts added by Bob's logistics
+    - Adds remnants and explosive particle effects on death
