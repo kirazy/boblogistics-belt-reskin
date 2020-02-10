@@ -1,3 +1,8 @@
+-- Copyright (c) 2020 Kirazy
+-- Part of Bob's Logistics Belt Reskin
+--     
+-- See LICENSE.md in the project directory for license information.
+
 -- Patch basic belt icons
 if data.raw["transport-belt"]["basic-transport-belt"] then
     beltReskin.patchIcon("basic-transport-belt")

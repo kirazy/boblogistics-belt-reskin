@@ -1,3 +1,8 @@
+-- Copyright (c) 2020 Kirazy
+-- Part of Bob's Logistics Belt Reskin
+--     
+-- See LICENSE.md in the project directory for license information.
+
 -- Create basic belt explosions
 if data.raw["transport-belt"]["basic-transport-belt"] then
     beltReskin.createExplosions("basic", "transport-belt")
