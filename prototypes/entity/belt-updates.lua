@@ -11,6 +11,9 @@ if data.raw["transport-belt"]["basic-transport-belt"] then
 	beltReskin.patchTransport("basic")
 	beltReskin.patchUnderground("basic")
 	beltReskin.patchSplitter("basic")
+
+	-- Replace the express belt sound with the standard belt sound
+	data.raw["transport-belt"]["basic-transport-belt"]["working_sound"]["sound"].filename = "__base__/sound/transport-belt.ogg"
 end
 		
 -- Patch turbo belt entities

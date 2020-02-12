@@ -4,6 +4,7 @@ Date: 2.11.2020
   Changes:
     - Added license and copyright information to files.
     - Removed redundant table.insert; thanks Optera.
+    - Changed sound of basic transport belt from express to standard.
   Bugfixes:
     - Fixed entity icons not being appropriately replaced.
 ---------------------------------------------------------------------------------------------------
