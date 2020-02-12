@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.2
-Date: X.X.2020
+Date: 2.11.2020
   Changes:
     - Added license and copyright information to files.
     - Removed redundant table.insert; thanks Optera.
