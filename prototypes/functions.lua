@@ -37,7 +37,9 @@ end
 -- This function patches sprites for transport belts
 function beltReskin.patchTransport(entityName)
     local entity = data.raw["transport-belt"][entityName.."-transport-belt"]
-    entity.belt_animation_set = _G[entityName.."_transport_belt_animation_set"]
+	entity.belt_animation_set = _G[entityName.."_transport_belt_animation_set"]
+	entity.icon = modDir.."/graphics/icons/"..entityName.."-transport-belt.png"
+	entity.icon_size = 64
     entity.corpse = entityName.."-transport-belt-remnants"
     entity.dying_explosion = entityName.."-transport-belt-explosion"
 end
@@ -46,7 +48,9 @@ end
 function beltReskin.patchUnderground(entityName)
     local entity = data.raw["underground-belt"][entityName.."-underground-belt"]
     
-    entity.belt_animation_set = _G[entityName.."_transport_belt_animation_set"]
+	entity.belt_animation_set = _G[entityName.."_transport_belt_animation_set"]
+	entity.icon = modDir.."/graphics/icons/"..entityName.."-underground-belt.png"
+	entity.icon_size = 64
     entity.corpse = entityName.."-underground-belt-remnants"
     entity.dying_explosion = entityName.."-underground-belt-explosion"
 	entity.structure.direction_in.sheet.filename = modDir.."/graphics/entity/"..entityName.."-underground-belt/"..entityName.."-underground-belt-structure.png"
@@ -59,7 +63,9 @@ end
 function beltReskin.patchSplitter(entityName)	
 	local entity = data.raw["splitter"][entityName.."-splitter"]
 	entity.belt_animation_set = _G[entityName.."_transport_belt_animation_set"]
-    entity.corpse = entityName.."-splitter-remnants"
+	entity.icon = modDir.."/graphics/icons/"..entityName.."-splitter.png"
+	entity.icon_size = 64
+	entity.corpse = entityName.."-splitter-remnants"
     entity.dying_explosion = entityName.."-splitter-explosion"
 	entity.structure.north.filename = modDir.."/graphics/entity/"..entityName.."-splitter/"..entityName.."-splitter-north.png"
 	entity.structure.north.hr_version.filename = modDir.."/graphics/entity/"..entityName.."-splitter/hr-"..entityName.."-splitter-north.png"
@@ -232,5 +238,5 @@ end
 -- This function replaces the icons
 function beltReskin.patchIcon(entityName)
     data.raw["item"][entityName].icon = modDir.."/graphics/icons/"..entityName..".png"
-    data.raw["item"][entityName].icon_size = 64
+	data.raw["item"][entityName].icon_size = 64
 end
