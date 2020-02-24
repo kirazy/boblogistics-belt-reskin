@@ -67,8 +67,27 @@ function beltReskin.patchSplitter(entityName)
 	entity.icon_size = 64
 	entity.corpse = entityName.."-splitter-remnants"
     entity.dying_explosion = entityName.."-splitter-explosion"
-	entity.structure.north.filename = modDir.."/graphics/entity/"..entityName.."-splitter/"..entityName.."-splitter-north.png"
-	entity.structure.north.hr_version.filename = modDir.."/graphics/entity/"..entityName.."-splitter/hr-"..entityName.."-splitter-north.png"
+	entity.structure.north =
+	{
+		filename = modDir.."/graphics/entity/"..entityName.."-splitter/"..entityName.."-splitter-north.png",
+		frame_count = 32,
+		line_length = 8,
+		priority = "extra-high",
+		width = 82,
+		height = 36,
+		shift = util.by_pixel(6, 0),
+		hr_version =
+		{
+			filename = modDir.."/graphics/entity/"..entityName.."-splitter/hr-"..entityName.."-splitter-north.png",
+			frame_count = 32,
+			line_length = 8,
+			priority = "extra-high",
+			width = 160,
+			height = 70,
+			shift = util.by_pixel(7, 0),
+			scale = 0.5
+		}
+	}
 	entity.structure.east =
 	{
 		filename = modDir.."/graphics/entity/"..entityName.."-splitter/"..entityName.."-splitter-east.png",
@@ -90,27 +109,46 @@ function beltReskin.patchSplitter(entityName)
 		scale = 0.5
 		}
 	}
-	entity.structure.south.filename = modDir.."/graphics/entity/"..entityName.."-splitter/"..entityName.."-splitter-south.png"
-	entity.structure.south.hr_version.filename = modDir.."/graphics/entity/"..entityName.."-splitter/hr-"..entityName.."-splitter-south.png"	
+	entity.structure.south =
+	{
+        filename = modDir.."/graphics/entity/"..entityName.."-splitter/"..entityName.."-splitter-south.png",
+        frame_count = 32,
+        line_length = 8,
+        priority = "extra-high",
+        width = 82,
+        height = 32,
+        shift = util.by_pixel(4, 0),
+        hr_version =
+        {
+			filename = modDir.."/graphics/entity/"..entityName.."-splitter/hr-"..entityName.."-splitter-south.png",
+			frame_count = 32,
+			line_length = 8,
+			priority = "extra-high",
+			width = 164,
+			height = 64,
+			shift = util.by_pixel(4, 0),
+			scale = 0.5
+        }
+	}
 	entity.structure.west =
 	{
 		filename = modDir.."/graphics/entity/"..entityName.."-splitter/"..entityName.."-splitter-west.png",
-		frame_count = 32,
-		line_length = 8,
-		priority = "extra-high",
-		width = 46,
-		height = 44,
-		shift = util.by_pixel(4, 12),
+        frame_count = 32,
+        line_length = 8,
+        priority = "extra-high",
+        width = 46,
+        height = 44,
+        shift = util.by_pixel(6, 12),
 		hr_version =
 		{
 		filename = modDir.."/graphics/entity/"..entityName.."-splitter/hr-"..entityName.."-splitter-west.png",
-		frame_count = 32,
-		line_length = 8,
-		priority = "extra-high",
-		width = 94,
-		height = 84,
-		shift = util.by_pixel(4, 13),
-		scale = 0.5
+			frame_count = 32,
+			line_length = 8,
+			priority = "extra-high",
+			width = 94,
+			height = 86,
+			shift = util.by_pixel(5, 12),
+			scale = 0.5
 		}
 	}
 	entity.structure_patch = 
@@ -146,7 +184,7 @@ function beltReskin.patchSplitter(entityName)
 			priority = "extra-high",
 			width = 46,
 			height = 48,
-			shift = util.by_pixel(4, -20),
+			shift = util.by_pixel(6, -18),
 			hr_version =
 			{
 				filename = modDir.."/graphics/entity/"..entityName.."-splitter/hr-"..entityName.."-splitter-west-top_patch.png",
@@ -155,7 +193,7 @@ function beltReskin.patchSplitter(entityName)
 				priority = "extra-high",
 				width = 94,
 				height = 96,
-				shift = util.by_pixel(4, -20),
+				shift = util.by_pixel(5, -18),
 				scale = 0.5
 			}
 		}
