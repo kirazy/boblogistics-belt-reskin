@@ -234,14 +234,14 @@ function beltReskin.createParticles(entityName)
     -- splitter-metal-particle-medium
     local mediumSplitterParticle = table.deepcopy(data.raw["optimized-particle"]["splitter-metal-particle-medium"])
     mediumSplitterParticle.name = entityName.."-splitter-metal-particle-medium"
-    mediumSplitterParticle.pictures.sheet.tint = beltReskin.particleTint[entityName][1]
+    mediumSplitterParticle.pictures.sheet.tint = beltReskin.particleTint[entityName][3]
     mediumSplitterParticle.pictures.sheet.hr_version.tint = beltReskin.particleTint[entityName][3]
     data:extend({mediumSplitterParticle})
 
     -- splitter-metal-particle-big
     local bigSplitterParticle = table.deepcopy(data.raw["optimized-particle"]["splitter-metal-particle-big"])
     bigSplitterParticle.name = entityName.."-splitter-metal-particle-big"
-    bigSplitterParticle.pictures.sheet.tint = beltReskin.particleTint[entityName][1]
+    bigSplitterParticle.pictures.sheet.tint = beltReskin.particleTint[entityName][3]
     bigSplitterParticle.pictures.sheet.hr_version.tint = beltReskin.particleTint[entityName][3]
     data:extend({bigSplitterParticle})
 end
