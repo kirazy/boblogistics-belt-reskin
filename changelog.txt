@@ -1,11 +1,16 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.18.4
+Date: 2020.04.XX
+  Bugfixes:
+    - Fixed improperly indexed particle assignment
+---------------------------------------------------------------------------------------------------
 Version: 0.18.3
-Date: 2.24.2020
+Date: 02.24.2020
   Bugfixes:
     - Fixed issues with west-facing splitter animation.
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.2
-Date: 2.11.2020
+Date: 02.11.2020
   Changes:
     - Added license and copyright information to files.
     - Removed redundant table.insert; thanks Optera.
@@ -14,7 +19,7 @@ Date: 2.11.2020
     - Fixed entity icons not being appropriately replaced.
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.1
-Date: 2.2.2020
+Date: 02.2.2020
   Features:
     - Initial Release
     - Reskins the logistics belts added by Bob's logistics
