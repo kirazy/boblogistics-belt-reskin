@@ -56,7 +56,11 @@ function beltReskin.patchUnderground(entityName)
 	entity.structure.direction_in.sheet.filename = modDir.."/graphics/entity/"..entityName.."-underground-belt/"..entityName.."-underground-belt-structure.png"
 	entity.structure.direction_in.sheet.hr_version.filename = modDir.."/graphics/entity/"..entityName.."-underground-belt/hr-"..entityName.."-underground-belt-structure.png"
 	entity.structure.direction_out.sheet.filename = modDir.."/graphics/entity/"..entityName.."-underground-belt/"..entityName.."-underground-belt-structure.png"
-    entity.structure.direction_out.sheet.hr_version.filename = modDir.."/graphics/entity/"..entityName.."-underground-belt/hr-"..entityName.."-underground-belt-structure.png"
+	entity.structure.direction_out.sheet.hr_version.filename = modDir.."/graphics/entity/"..entityName.."-underground-belt/hr-"..entityName.."-underground-belt-structure.png"
+	entity.structure.direction_in_side_loading.sheet.filename = modDir.."/graphics/entity/"..entityName.."-underground-belt/"..entityName.."-underground-belt-structure.png"
+	entity.structure.direction_in_side_loading.sheet.hr_version.filename = modDir.."/graphics/entity/"..entityName.."-underground-belt/hr-"..entityName.."-underground-belt-structure.png"
+	entity.structure.direction_out_side_loading.sheet.filename = modDir.."/graphics/entity/"..entityName.."-underground-belt/"..entityName.."-underground-belt-structure.png"
+    entity.structure.direction_out_side_loading.sheet.hr_version.filename = modDir.."/graphics/entity/"..entityName.."-underground-belt/hr-"..entityName.."-underground-belt-structure.png"
 end
 
 -- This function patches sprites for splitters
