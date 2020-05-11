@@ -1,8 +1,9 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.4
-Date: 2020.04.XX
+Date: 2020.05.11
   Bugfixes:
     - Fixed improperly indexed particle assignment
+    - Fixed side-loading not being properly reskinned for east-facing entities
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.3
 Date: 02.24.2020
