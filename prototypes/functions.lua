@@ -11,9 +11,9 @@ if not beltReskin then beltReskin = {} end
 
 -- Store tint values for use with particle creation, format is ["entityPrefix"] = {{transport-belt},{underground-belt},{splitter}}
 beltReskin.particleTint = {
-    ["basic"] = {{a = 1, b = 187, g = 187, r = 187},{a = 1, b = 197, g = 197, r = 197},{a = 1, b = 192, g = 192, r = 192}},
-    ["turbo"] = {{a = 1, b = 160, g = 0, r = 186},{a = 1,b = 214, g = 31, r = 231},{a = 1, b = 207, g = 29, r = 221}},
-    ["ultimate"] = {{a = 1, b = 0, g = 214, r = 59},{a = 1, b = 57, g = 232, r = 106},{a = 1, b = 55, g = 226, r = 100}}
+    ["basic"] = {util.color("bbbbbb"), util.color("c5c5c5"), util.color("c0c0c0")},
+    ["turbo"] = {util.color("ba00a0"), util.color("e71fd6"), util.color("dd1dcf")},
+    ["ultimate"] = {util.color("3bd600"), util.color("6ae825"), util.color("6ae237")}
 }
 
 -- This function creates corpses for splitter entities

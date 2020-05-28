@@ -1,8 +1,10 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.5
-Date: 2020.XX.XX
+Date: 2020.05.28
   Changes:
-    - Make incompatible with forthcoming Bob's mods reskin
+    - Updated icons to new hi-res icons released with Factorio 0.18.27
+  Bugfixes:
+    - Fixed particle tints being washed out
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.4
 Date: 2020.05.11

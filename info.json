@@ -7,6 +7,5 @@
   "contact": "kirazy@live.com",
   "description": "Reskins the belts in Bob's Logistics to have cleaner, brighter graphics, and adds debris and explosions!",
   "dependencies": [	"base >= 0.18.0",
-        "boblogistics >=0.18.1",
-        "! reskins-bobs >= 0.18.1"]
+        "boblogistics >=0.18.1"]
 }
