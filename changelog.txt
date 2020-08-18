@@ -1,8 +1,9 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.18.6
-Date: 2020.XX.XX
+Version: 1.0.0
+Date: 2020.08.18
   Changes:
-    - Marked incompatible with Artisanal Reskins: Bob's Mods.
+    - Moved to Factorio version 1.0.0
+    - Marked incompatible with Artisanal Reskins: Bob's Mods
 ---------------------------------------------------------------------------------------------------
 Version: 0.18.5
 Date: 2020.05.28
