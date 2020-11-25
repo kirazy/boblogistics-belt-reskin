@@ -1,12 +1,12 @@
 {
   "name": "boblogistics-belt-reskin",
-  "version": "1.0.0",
-  "factorio_version": "1.0",
+  "version": "1.1.0",
+  "factorio_version": "1.1",
   "title": "Bob's Logistics Belt Reskin",
   "author": "Kirazy",
   "contact": "kirazy@live.com",
   "description": "Reskins the belts in Bob's Logistics to have cleaner, brighter graphics, adding debris and explosions! Replaces the mod Bob's Logistics Basic Belt Reskin.",
-  "dependencies": [	"base >= 1.0.0",
+  "dependencies": [	"base",
       "boblogistics",
       "! reskins-bobs"]
 }
