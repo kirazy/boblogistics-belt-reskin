@@ -8,5 +8,5 @@
   "description": "Reskins the belts in Bob's Logistics to have cleaner, brighter graphics, adding debris and explosions! Replaces the mod Bob's Logistics Basic Belt Reskin.",
   "dependencies": [	"base",
       "boblogistics",
-      "! reskins-bobs"]
+      "! reskins-library"]
 }
